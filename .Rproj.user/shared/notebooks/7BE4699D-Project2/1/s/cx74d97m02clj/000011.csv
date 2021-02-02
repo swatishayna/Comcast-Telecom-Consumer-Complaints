@@ -1,0 +1,8 @@
+"0","date <- format(telecom$Date, ""%d"")"
+"0","x=data.frame(table(date))"
+"0",""
+"0","daytrend <- ggplot(data=x , aes(x=date, y=Freq, group=5))+"
+"0","  geom_path(color = ""red"")+"
+"0","  ggtitle(""Day Wise Trend Of Customer Complaints"")+geom_point(size=2, shape=22, fill=""black"")+geom_area(color=""red"", fill=""cornflowerblue"")+xlab(""Days Of The Month"")+"
+"0","  ylab(""No of Complaints"")"
+"0","daytrend    "

@@ -1,0 +1,1 @@
+"0","text(x= complaint.types , y=complaint_types +30 ,labels = complaint_types )"

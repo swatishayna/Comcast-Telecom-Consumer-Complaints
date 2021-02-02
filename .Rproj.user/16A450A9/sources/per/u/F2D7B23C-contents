@@ -1,0 +1,11 @@
+gc<-read.csv(file.choose())
+View(gc)
+
+
+sapply(gc,class)
+gc$Default <-as.factor(gc$Default)
+
+set.seed(12)
+train_ind <- sample(1:nrow(gc), nrow(gc)*0.7)
+train_gc <- gc[train_ind,]
+test_gc <- gc[-train_ind,]

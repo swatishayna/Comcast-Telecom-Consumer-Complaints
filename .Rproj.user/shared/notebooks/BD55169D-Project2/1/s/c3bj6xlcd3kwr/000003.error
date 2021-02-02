@@ -1,0 +1,1 @@
+{"frames":[{"func":"-telecom$Customer.Complaint %in% c(Service_Issue, Internet_Issue, \n    Overbilling_Issue)","file":"","line_number":0,"end_line_number":0,"character_number":0,"end_character_number":0}],"message":"Error in -telecom$Customer.Complaint : invalid argument to unary operator\n"}

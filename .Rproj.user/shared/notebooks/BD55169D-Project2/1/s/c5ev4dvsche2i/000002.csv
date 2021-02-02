@@ -1,0 +1,7 @@
+"0",""
+"0","complaint.types <- barplot(complaint_types,"
+"0","        col = brewer.pal(3 , ""Set2""),"
+"0","        xlab = ""Types of complaints"","
+"0","        ylab = ""Frequency"","
+"0","        names.arg= c(""Service"", ""Internet"", ""billing""),"
+"0","        ylim = c(0,800))"

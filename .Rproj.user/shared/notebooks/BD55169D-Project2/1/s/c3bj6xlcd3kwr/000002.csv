@@ -1,0 +1,4 @@
+"0","Others <- telecom$Customer.Complaint[-telecom$Customer.Complaint%in% c(Service_Issue,Internet_Issue,Overbilling_Issue)]
+"
+"2","Error in -telecom$Customer.Complaint : invalid argument to unary operator
+"

@@ -1,0 +1,7 @@
+"0","date_format1 <-strptime(telecom$Date, format = ""%d-%m-%Y"")"
+"0","date_format2 <- strptime(telecom$Date, format = ""%d/%m/%Y"" )"
+"0","date_format1[is.na(date_format1)] <- date_format2[!is.na(date_format2)]"
+"0","date_format1 <-as.Date(date_format1)"
+"0",""
+"0","telecom$Date <- date_format1"
+"0",""
